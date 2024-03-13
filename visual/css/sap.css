@@ -24,21 +24,58 @@
     flex-direction: row;
     gap: 1%;
     height: 33.3%;
+    color: blue;
 }
 
 .corner-border {
-    border-radius: 1.5%;
+    -moz-border-radius: 2%;
+    -webkit-border-radius: 2%;
+    border-radius: 2%;
 }
 
 .long-box{
     background-color: #d8d9fd;
     width: 66.6%;
-    padding-left: ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
 }
 
 .small-box{
     background-color: #d8d9fd;
     width: 33.3%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+
+.intro{
+    display: flex;
+    gap: 10px;
+}
+
+#ola-tudo{
+    margin-top: 50px;
+    font-size: 25px;
+    width: 40%;
+}
+
+.roboz{
+    height: 100%;
+}
+
+.opcoes-ola{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.titulo-box{
+    display: flex;
+    justify-content: space-between;
 }
 
 .pedidos{
@@ -46,11 +83,29 @@
     flex-direction: column;
 }
 
-/* SAP ANTIGO */
+/*------------- ------------------------ ------------------ -SAP ANTIGO- -------------------- --------------------- ---------------------*/
 
 #old-header {
     width: 100vw;
     height: auto;
     padding-left: 1%;
     background-color: #dddddd;
+}
+
+#protective-tape {
+    width: 100vw;
+    height: 20px;
+    background-color: yellow;
+}
+
+.button-menu {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding-left: 1%;
+    background-color: #dddddd;
+}
+
+.old-buttons {
+    border-radius: 0%;
 }
