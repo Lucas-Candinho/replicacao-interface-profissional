@@ -73,6 +73,23 @@
     align-self: center;
 }
 
+.info-pedidos{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.item-pedido{
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 10%;
+    text-align: center;
+
+}
+
 .titulo-box{
     display: flex;
     justify-content: space-between;
