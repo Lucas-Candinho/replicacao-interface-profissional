@@ -1,0 +1,56 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* SAP NOVO */
+
+/* body {
+    overflow: hidden;
+}
+*/
+
+.main-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    padding: 0.5%;
+}
+
+.double-box{
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    height: 33.3%;
+}
+
+.corner-border {
+    border-radius: 1.5%;
+}
+
+.long-box{
+    background-color: #d8d9fd;
+    width: 66.6%;
+    padding-left: ;
+}
+
+.small-box{
+    background-color: #d8d9fd;
+    width: 33.3%;
+}
+
+.pedidos{
+    display: flex;
+    flex-direction: column;
+}
+
+/* SAP ANTIGO */
+
+#old-header {
+    width: 100vw;
+    height: auto;
+    padding-left: 1%;
+    background-color: #dddddd;
+}
