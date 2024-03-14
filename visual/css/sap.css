@@ -70,8 +70,19 @@
     width: 100%;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     align-self: center;
 }
+
+.but-opcoes-ola{
+    background-color: blue;
+    color: #fafafa;
+    border-style: none;
+    width: 60%;
+    margin-top: 10px;
+    height: 30px;      
+    border-radius: 100px;
+}       
 
 .info-pedidos{
     display: flex;
@@ -99,12 +110,18 @@
     display: flex;
     flex-direction: row;
     gap: 1%;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagem-produto{
     background-color: white;
-    height: 20%;
-    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    width: 13%;
     margin-top: 50px;
 }
 
