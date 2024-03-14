@@ -95,6 +95,20 @@
     justify-content: space-between;
 }
 
+.ultimas-compras{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
+.imagem-produto{
+    background-color: white;
+    height: 20%;
+    width: 15%;
+    margin-top: 50px;
+}
+
+
 .pedidos{
     display: flex;
     flex-direction: column;
