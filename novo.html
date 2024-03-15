@@ -14,76 +14,107 @@
                     <img src="./visual/imagens/roboz.png" class="roboz">
                 </div>
                 <div id="ola-tudo">
-                    <h2>Olá, tudo bem 
-                        <br>
-                        <br>
-                        Como posso
-                        <br>
-                        ajudar hoje?
-                    </h2>
-                    <button>Fale comigo! <img></button>
+                    <div>
+                        <h2>Olá, tudo bem 
+                        <h2 id="como-posso">
+                            Como posso
+                            <br>
+                            ajudar hoje?
+                        </h2>
+                        </h2>
+                    </div>
+                    <div id="but-ola-tudo">
+                        <button id="fale-comigo">Fale comigo!<button class="seta" id="seta-fale-comigo">seta</button></button>
+                    </div>
                 </div>
                 <div class="opcoes-ola">
-                    <button>quero comprar material</button>
-                    <button>quero comprar serviço</button>
-                    <button>consultar fluxo de processos</button>
-                    <button>status das minhas requisições</button>
-                    <button>nao sei ao certo, me ajude</button>
+                <button class="but-opcoes-ola">quero comprar material</button><button class="seta">seta</button>
+                    <button class="but-opcoes-ola">quero comprar serviço</button><button class="seta">seta</button>
+                    <button class="but-opcoes-ola">consultar fluxo de processos</button><button class="seta">seta</button>
+                    <button class="but-opcoes-ola">status das minhas requisições</button><button class="seta">seta</button>
+                    <button class="but-opcoes-ola">nao sei ao certo, me ajude</button><button class="seta">seta</button>
                 </div>
             </div>
             <div class="small-box corner-border">
                 <div class="titulo-box">
-                    <p>Status de pedidos recentes</p>
-                    <button>Ver todos os pedidos</button>
+                    <h3>Status de pedidos recentes</h3>
+                    <p>Ver todos os pedidos</p>
+                    <button></button>
                 </div>
                 <div class="info-pedidos">
-                    <span>N° requerimento</span>
+                    <span>N° req</span>
                     <span>Data</span>
                     <span>Valor</span>
                     <span>Status</span>
                 </div>
                 <div class="item-pedido">
-                    <p>item</p>
+                    <p class="dark-txt">#125</p>
+                    <p class="dark-txt">20/04/2020</p>
+                    <p class="dark-txt">R$1.250,50</p>
+                    <p class="status-pedidos-recentes">Processado</p>
                 </div>
                 <div class="item-pedido">
-                    <p>item</p>
+                    <p class="dark-txt">#125</p>
+                    <p class="dark-txt">20/04/2020</p>
+                    <p class="dark-txt">R$1.250,50</p>
+                    <p id="status-pedidos-recentes-ama">Análise</p>
                 </div>
                 <div class="item-pedido">
-                    <p>item</p>
+                    <p class="dark-txt">#125</p>
+                    <p class="dark-txt">20/04/2020</p>
+                    <p class="dark-txt">R$1.250,50</p>
+                    <p id="status-pedidos-recentes-ver">Encerrado</p>
                 </div>
                 <div class="item-pedido">
-                    <p>item</p>
+                    <p class="dark-txt">#125</p>
+                    <p class="dark-txt">20/04/2020</p>
+                    <p class="dark-txt">R$1.250,50</p>
+                    <p class="status-pedidos-recentes">Processado</p>
                 </div>
             </div>
         </section>
         <section class="double-box corner-border" id="compras"> <!--SEGUNDA-->
             <div class="long-box corner-border" id="buying-box">
                 <div class="titulo-box">
-                    <p>Baseado em suas últimas compras</p>
-                    <button>Ver todas as recomendações</button>
+                    <h3>Baseado em suas últimas compras</h3>
+                    <p>Ver todas as recomendações</p>
+                    <button></button>
                 </div>
-                <div>
-                    <div>
+                <div class="ultimas-compras">
+                    <div class="seta">
                         <img src="" alt="">
-                        <p></p> 
-                    </div>
-                    <div>
+                    </div> 
+                    <div class="imagem-produto">
                         <img src="" alt="">
-                        <p></p> 
+                        <p>a<br>a</p>
+                        <button>imagem</button>
                     </div>
-                    <div>
+                    <div class="imagem-produto">
                         <img src="" alt="">
-                        <p></p> 
+                        <p>a<br>a</p>
+                        <button>imagem</button>
                     </div>
-                    <div>
+                    <div class="imagem-produto">
                         <img src="" alt="">
-                        <p></p> 
+                        <p>a<br>a</p>
+                        <button>imagem</button>
                     </div>
-                    <div>
+                    <div class="imagem-produto">
                         <img src="" alt="">
-                        <p></p> 
+                        <p>a<br>a</p>
+                        <button>imagem</button> 
                     </div>
-                    <div>
+                    <div class="imagem-produto">
+                        <img src="" alt="">
+                        <p>a<br>a</p>
+                        <button>imagem</button> 
+                    </div>
+                    <div class="imagem-produto">
+                        <img src="" alt="">
+                        <p>a<br>a</p>
+                        <button>imagem</button> 
+                    </div>
+                    <div class="seta">
                         <img src="" alt="">
                         <p></p> 
                     </div>
@@ -92,74 +123,154 @@
             </div>
             <div class="small-box corner-border">
                 <div class="titulo-box">
-                    <p>Mensagens e alertas</p>
-                    <button>Ver todas as mensagens</button>
+                    <h3>Mensagens e alertas</h3>
+                    <p>Ver todas as mensagens</p>
+                    <button></button>
                 </div>
                 <div class="alert-container">
                     <img src="" class="alert-container-pfp">
                     <div class="alert-container-texts">
-                        <p class="alert-container-name">Nome</p>
-                        <span class="alert-container-message"></span>
+                        <p class="alert-container-name">João da Silva</p>
+                        <span class="alert-container-message">Verificar pagamento do fondecedor apto</span>
                     </div>
-                    <span class="alert-container-date"></span>
+                    <span class="alert-container-date">Abr 5</span>
                 </div>
                 <div class="alert-container">
                     <img src="" class="alert-container-pfp">
                     <div class="alert-container-texts">
-                        <p class="alert-container-name">Nome</p>
-                        <span class="alert-container-message"></span>
+                        <p class="alert-container-name">Márcio José</p>
+                        <span class="alert-container-message">Meu serviço não foi entregue, consegue me ajudar?</span>
                     </div>
-                    <span class="alert-container-date"></span>
+                    <span class="alert-container-date">Abr 5</span>
                 </div>
                 <div class="alert-container">
                     <img src="" class="alert-container-pfp">
                     <div class="alert-container-texts">
-                        <p class="alert-container-name">Nome</p>
-                        <span class="alert-container-message"></span>
+                        <p class="alert-container-name">João da Silva</p>
+                        <span class="alert-container-message">Quando puder, gostaria de falar com você</span>
                     </div>
-                    <span class="alert-container-date"></span>
+                    <span class="alert-container-date">Abr 5</span>
                 </div>
                 <div class="alert-container">
                     <img src="" class="alert-container-pfp">
                     <div class="alert-container-texts">
-                        <p class="alert-container-name">Nome</p>
-                        <span class="alert-container-message"></span>
+                        <p class="alert-container-name">Márcio José</p>
+                        <span class="alert-container-message">Não encontrei o produto qual preciso, tem alguma dica</span>
                     </div>
-                    <span class="alert-container-date"></span>
+                    <span class="alert-container-date">Abr 5</span>
                 </div>
             </div>
         </section>
         <section class="double-box"> <!--TERCEIRA-->
             <div class="long-box corner-border" id="requisicoes">
                 <div class="titulo-box">
-                    <p>Status das últimas requisições</p>
-                    <button>Ver todos os processos</button>
+                    <h3>Status das últimas requisições</h3>
+                    <p>Ver todos os processos</p>
+                    <button></button>
                 </div>
-                <div class="pedidos">
-                    <div>
-                        <p>N° pedido</p>
+                <div class="status-pedidos">
+                    <div class="status-pedidos-box">
+                        <div class="status-id-pedidos">
+                            <h4>N° pedido</h4>
+                            <h4># 12345</h4>
+                        </div>
+                        <div class="etapas-status-pedidos">
+                            <div class="status-pedidos-colorido">
+                                <div class="bola-verde">✔</div>
+                                <div class="linha-verde"></div>
+                                <div class="bola-verde">✔</div>
+                                <div class="linha-verde"></div>
+                                <div class="bola-amarela">3</div>
+                                <div class="linha-padrao"></div>
+                                <div class="bola-padrao">4</div>
+                                <div class="linha-padrao"></div>
+                                <div class="bola-padrao">5</div>
+                            </div>
+                            <div class="txt-status-pedidos">
+                                <p>Requisição</p>
+                                <p>Vendedor</p>
+                                <p>Cotação</p>
+                                <p>PO | GR</p>
+                                <p>Processado</p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p>N° pedido</p>
+                    <div class="status-pedidos-box">
+                        <div class="status-id-pedidos">
+                            <h4>N° pedido</h4>
+                            <h4># 12345</h4>
+                        </div>
+                        <div class="etapas-status-pedidos">
+                            <div class="status-pedidos-colorido">
+                                <div class="bola-verde">✔</div>
+                                <div class="linha-verde"></div>
+                                <div class="bola-verde">✔</div>
+                                <div class="linha-verde"></div>
+                                <div class="bola-amarela">3</div>
+                                <div class="linha-padrao"></div>
+                                <div class="bola-padrao">4</div>
+                                <div class="linha-padrao"></div>
+                                <div class="bola-padrao">5</div>
+                            </div>
+                            <div class="txt-status-pedidos">
+                                <p>Requisição</p>
+                                <p>Vendedor</p>
+                                <p>Cotação</p>
+                                <p>PO | GR</p>
+                                <p>Processado</p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p>N° pedido</p>
+                    <div class="status-pedidos-box">
+                        <div class="status-id-pedidos">
+                            <h4>N° pedido</h4>
+                            <h4># 12345</h4>
+                        </div>
+                        <div class="etapas-status-pedidos">
+                            <div class="status-pedidos-colorido">
+                                <div class="bola-verde">✔</div>
+                                <div class="linha-verde"></div>
+                                <div class="bola-verde">✔</div>
+                                <div class="linha-verde"></div>
+                                <div class="bola-amarela">3</div>
+                                <div class="linha-padrao"></div>
+                                <div class="bola-padrao">4</div>
+                                <div class="linha-padrao"></div>
+                                <div class="bola-padrao">5</div>
+                            </div>
+                            <div class="txt-status-pedidos">
+                                <p>Requisição</p>
+                                <p>Vendedor</p>
+                                <p>Cotação</p>
+                                <p>PO | GR</p>
+                                <p>Processado</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="small-box corner-border">
                 <div class="titulo-box">
-                    <p>Últimas transações e pedidos</p>
-                    <button>Ver todas transações</button>
+                    <h3>Últimas transações e pedidos</h3>
+                    <p>Ver todas transações</p>
+                    <button></button>
                 </div>
-                <div>
-                    <p>imagem pa</p>
-                </div>
-                <div>
-                    <p>imagem pa</p>
-                </div>
-                <div>
-                    <p>imagem pa</p>
+                <div class="produtos-img">
+                    <div class="imagem-produto">
+                        <img src="" alt="">
+                        <p>a<br>a</p>
+                        <button>imagem</button>
+                    </div>
+                    <div class="imagem-produto">
+                        <img src="" alt="">
+                        <p>a<br>a</p>
+                        <button>imagem</button>
+                    </div>
+                    <div class="imagem-produto">
+                        <img src="" alt="">
+                        <p>a<br>a</p>
+                        <button>imagem</button>
+                    </div>
                 </div>
             </div>
         </section>
