@@ -365,6 +365,7 @@ h4{
 
 #old-body {
     height: 100%;
+    width: 100%;
     box-sizing: border-box;
     background-color: #cfcfcf;
 }
@@ -395,6 +396,10 @@ h4{
     padding-bottom: 5px;
     margin-left: 1%;
     background-color: #dddddd;
+}
+
+#transparent {
+    background-color: transparent;
 }
 
 .old-buttons {
@@ -452,7 +457,8 @@ h4{
 
 #folder {
     margin-top: 5px;
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: 10px;
     height: 15px;
     width: 15px;
 }
@@ -516,6 +522,7 @@ h4{
 }
 
 #old-main {
+    width: auto;
     margin-left: 355px;
     padding-left: 5px;
 }
@@ -523,7 +530,7 @@ h4{
 #higher-old {
     width: 100%;
     height: 50vh;
-    background-color: #e7e7e7;
+    background-color: #f0f0f0;
 }
 
 #white-square {
@@ -535,8 +542,9 @@ h4{
 }
 
 #gray-square {
-    width: 71%;
+    width: auto;
     height: 5px;
+    margin-left: 10px;
     background-color: #c7c6c6;
 }
 
@@ -554,11 +562,13 @@ h4{
     width: 20px;
     border-radius: 100%;
     border: 1px solid #d3d3d3;
+    background-color: #fafafa;
 }
 
 #folder-main {
     margin-top: 5px;
     margin-left: auto;
+    margin-right: 10px;
     height: 15px;
     width: 15px;
 }
@@ -571,4 +581,30 @@ h4{
     display: flex;
     height: 25px;
     border-top: 5px solid steelblue;
+    margin-left: 10px
+}
+
+#main-table {
+    width: auto;
+    margin-left: 10px;
+}
+
+#main-table-image {
+    height: 10px;
+    width: 10px;
+}
+
+#icon-blank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-item-main {
+    width: fit-content;
+    padding-top: 4px;
+    padding-left: 5px;
+    border: 1px solid #bfbfbf;
+    overflow: hidden;
+    background-color: #fafafa;
 }
