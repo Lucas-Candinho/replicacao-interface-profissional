@@ -378,12 +378,122 @@ h4{
 
 .button-menu {
     width: 100vw;
+    height: auto;
     display: flex;
     flex-direction: row;
+    gap: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 1%;
     background-color: #dddddd;
 }
 
 .old-buttons {
+    height: 25px;
+    padding: 5px;
     border-radius: 0%;
+    border: 1px solid gray;
+    background-color: #dddddd;
+    text-align: center;
+}
+
+.less-opacity {
+    opacity: 40%;
+}
+
+.vl {
+    border-left: 2px solid #bfbfbf;
+    height: auto;
+}
+
+.dropdown-old {
+    border: 1px solid gray;
+    background-color: #dddddd;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    background-color: #fafafa;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: auto;
+}
+
+#sidebar-header {
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#navigation-text {
+    font-size: 22px;
+}
+
+#repositories-text {
+    margin-top: 5px;
+}
+
+#folder {
+    margin-top: 5px;
+    margin-left: 50px;
+    height: 15px;
+    width: 15px;
+}
+
+#triangle {
+    width: 0;
+	height: 0;
+	border-left: 9.5px solid transparent;
+	border-right: 9.5px solid transparent;
+	border-bottom: 10px solid steelblue;
+    margin-top: 7px;
+    margin-left: 65px;
+}
+
+#sidebar-buttons {
+    display: flex;
+    height: 25px;
+    border-top: 5px solid steelblue;
+}
+
+#mechanic-button {
+    margin-left: 60px;
+}
+
+.table-row {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.blank-row {
+    background-color: #dddddd;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #bfbfbf;
+}
+
+.table-item {
+    width: 100px;
+    padding-top: 4px;
+    padding-left: 5px;
+    border: 1px solid #bfbfbf;
+    overflow: hidden;
+    background-color: #fafafa;
+}
+
+.item-top {
+    background-color: #dddddd;
+}
+
+
+#old-main {
+    margin-left: 350px;
 }

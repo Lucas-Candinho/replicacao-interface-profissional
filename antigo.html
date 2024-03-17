@@ -11,12 +11,132 @@
         <h1>Component Customizing /SCMTMS/WDCC_FWD_ORDER, Main Page "$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER"</h1>
     </header>
     <div id="protective-tape"></div>
-    <section class="button-menu">
-        <button class="old-buttons">asd</button>
-    </section>
-    <aside id="navigation"></aside>
-    <main class="old-main">
-        
+    <nav class="button-menu">
+        <button class="old-buttons">💾 Save</button>
+        <div class="vl"></div>
+        <button class="old-buttons">❌ Cancel</button>
+        <button class="old-buttons less-opacity">✏️ Edit</button>
+        <div class="vl"></div>
+        <button class="old-buttons less-opacity">💾 Save Draft</button>
+        <button class="old-buttons less-opacity">Load Draft</button>
+        <div class="vl"></div> 
+        <button class="old-buttons less-opacity">🔄</button>
+        <button class="old-buttons less-opacity">↩️ Undo</button>
+        <button class="old-buttons less-opacity">↪️ Redo</button>
+        <div class="vl"></div> 
+        <button class="old-buttons">Check</button>
+        <div class="vl"></div> 
+        <button class="old-buttons">🟦</button>
+        <div class="vl"></div> 
+        <button class="old-buttons">🟦</button>
+        <div class="vl"></div> 
+        <button class="old-buttons">🟦</button>
+        <div class="vl"></div> 
+        <select name="additional-functions" class="dropdown-old">
+            <option value="Additional Functions">Additional Functions</option>
+            <option value="Quadrado">Quadrado</option>
+            <option value="Triangulo">Triângulo</option>
+            <option value="Circulo">Círculo</option>
+          </select>
+    </nav>
+    <div class="sidebar">
+        <header id="sidebar-header">
+            <h1 id="navigation-text">Navigation</h1>
+            <span id="repositories-text">Repositories</span>
+            <img id="folder" src="./visual/imagens/open-folder.png">
+        </header>
+        <div id="triangle"></div>
+            <nav class="button-menu" id="sidebar-buttons">
+                <select name="New" class="dropdown-old" id="sidebar-select">
+                    <option value="New">📄 New</option>
+                    <option value="Quadrado">Quadrado</option>
+                    <option value="Triangulo">Triângulo</option>
+                    <option value="Circulo">Círculo</option>
+                  </select>
+                  <button class="old-buttons">🗑️</button> 
+                  <button class="old-buttons">📄</button>
+                  <div class="vl"></div> 
+                  <button class="old-buttons less-opacity">Up</button>
+                  <button class="old-buttons">Down</button> 
+                  <button class="old-buttons" id="mechanic-button">🧑‍🔧</button>
+            </nav>
+            <table>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item item-top">Page Type</td>
+                    <td class="table-item item-top">Page Id</td>
+                    <td class="table-item item-top">Title</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Initial Page</td>
+                    <td class="table-item">MAIN</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Main Page</td>
+                    <td class="table-item">MAIN</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Main Page</td>
+                    <td class="table-item">MAIN_FAST_El</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Main Page</td>
+                    <td class="table-item">MAIN_FAST_El</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Dialog Box</td>
+                    <td class="table-item">ADRESS_DET</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Dialog Box</td>
+                    <td class="table-item">ACT_LIST</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Dialog Box</td>
+                    <td class="table-item">NOTE_HLP</td>
+                    <td class="table-item">$OTR:/BOFUA</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Dialog Box</td>
+                    <td class="table-item">SEC_FILING_R</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Dialog Box</td>
+                    <td class="table-item">SEC_FILING_C</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Dialog Box</td>
+                    <td class="table-item">REPACT_NOTE</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Dialog Box</td>
+                    <td class="table-item">REPACT_ATF</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+            </table>
+    </div>
+    <main id="old-main">
+        <p>aaaaaaa</p>
     </main>
 </body>
 </html>
